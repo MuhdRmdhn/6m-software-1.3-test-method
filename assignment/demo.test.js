@@ -21,7 +21,7 @@ describe("Demo", ()=>{
         const valueArr = ["Book A", "Book B"];
 
         const result = convert(keyArr, valueArr);
-        //the toBe() can be used to match specific values
+       // the toBe() can be used to match specific values
         expect(result["NLB1"]).toBe("Book A");
         expect(result["NLB2"]).toBe("Book B");
     })
